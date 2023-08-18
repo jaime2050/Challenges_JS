@@ -1,0 +1,25 @@
+/**
+* Aplica el estilo a todas las etiquetas h1
+*/
+h1 {
+  color: #2f2fb9;
+  font-size: 50px;
+}
+/**
+* son clases css que deben estar llamadas en html como class"exercises-one-list"
+* Se pueden usar en cualquier lado y solo aplican los estilos en donde este el class
+* Se usa el formato kebab-case para separar las plabras compuestas
+*/
+.exercises-one-list {
+  color: #c92323;
+  text-decoration: none;
+}
+.exercises-two-list {
+  color: #147531;
+  text-decoration: none;
+}
+
+/**
+* APUNTES:
+* #2f2fb9; // Se debe usar formato exadecimal para los colores porque se lee mas rapido que otro formato como RGB
+*/
